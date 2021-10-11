@@ -1,5 +1,11 @@
+import UseStateHook from "./useState/UseStateHook";
+
 function App() {
-  return <div className="App">lol</div>;
+  return (
+    <>
+      <UseStateHook />
+    </>
+  );
 }
 
 export default App;
