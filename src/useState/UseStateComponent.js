@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function UseStateHook() {
+function UseStateComponent() {
   const [count, setCount] = useState(0);
   const [inputValue, setInputValue] = useState("");
 
@@ -22,4 +22,4 @@ function UseStateHook() {
   );
 }
 
-export default UseStateHook;
+export default UseStateComponent;

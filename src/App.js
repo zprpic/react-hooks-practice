@@ -1,9 +1,9 @@
-import UseRefHook from "./useRef/UseRefHook";
+import UseLayoutEffectComponent from "./useLayoutEffect/UseLayoutEffectComponent";
 
 function App() {
   return (
     <>
-      <UseRefHook />
+      <UseLayoutEffectComponent />
     </>
   );
 }

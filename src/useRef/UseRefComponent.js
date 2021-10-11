@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-function UseRefHook() {
+function UseRefComponent() {
   const [name, setName] = useState("Prle");
 
   const inputRef = useRef(null);
@@ -27,4 +27,4 @@ function UseRefHook() {
   );
 }
 
-export default UseRefHook;
+export default UseRefComponent;

@@ -17,7 +17,7 @@ const reducer = (state, action) => {
   }
 };
 
-function UseReducerHook() {
+function UseReducerComponent() {
   const [state, dispatch] = useReducer(reducer, { count: 0, showText: true });
   return (
     <div>
@@ -31,4 +31,4 @@ function UseReducerHook() {
   );
 }
 
-export default UseReducerHook;
+export default UseReducerComponent;
