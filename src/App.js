@@ -1,11 +1,9 @@
-import UseStateHook from "./useState/UseStateHook";
-import UseReducerHook from "./useReducer/UseReducerHook";
+import UseEffectHook from "./useEffect/UseEffectHook";
 
 function App() {
   return (
     <>
-      <UseStateHook />
-      <UseReducerHook />
+      <UseEffectHook />
     </>
   );
 }
