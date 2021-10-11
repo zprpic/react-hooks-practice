@@ -1,9 +1,9 @@
-import UseEffectHook from "./useEffect/UseEffectHook";
+import UseRefHook from "./useRef/UseRefHook";
 
 function App() {
   return (
     <>
-      <UseEffectHook />
+      <UseRefHook />
     </>
   );
 }

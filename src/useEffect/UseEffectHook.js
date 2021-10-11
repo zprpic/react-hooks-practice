@@ -18,7 +18,7 @@ function UseEffectHook() {
     <div>
       hello world {data}
       <div>{count}</div>
-      <button onClick={handleOnClick}>icrement</button>
+      <button onClick={handleOnClick}>increment</button>
     </div>
   );
 }
