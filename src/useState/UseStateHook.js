@@ -10,14 +10,14 @@ function UseStateHook() {
   };
 
   const handleOnChange = (e) => {
-    setInputValue(e);
+    setInputValue(e.target.value);
   };
 
   return (
     <div>
       {count}
       <button onClick={handleOnClick}>increment</button>
-      <input type="text" onChange={(e) => handleOnChange(e.target.value)} />
+      <input type="text" onChange={handleOnChange} />
       <h3>{inputValue}</h3>
     </div>
   );
