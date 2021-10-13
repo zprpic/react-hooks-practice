@@ -1,9 +1,9 @@
-import UseLayoutEffectComponent from "./useLayoutEffect/UseLayoutEffectComponent";
+import UseImperativeHandleComponent from "./useImperativeHandle/UseImperativeHandleComponent";
 
 function App() {
   return (
     <>
-      <UseLayoutEffectComponent />
+      <UseImperativeHandleComponent />
     </>
   );
 }
