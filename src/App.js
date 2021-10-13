@@ -1,9 +1,9 @@
-import UseContextComponent from "./useContext/UseContextComponent";
+import UseMemoComponent from "./useMemo/UseMemoComponent";
 
 function App() {
   return (
     <>
-      <UseContextComponent />
+      <UseMemoComponent />
     </>
   );
 }
