@@ -1,9 +1,9 @@
-import UseImperativeHandleComponent from "./useImperativeHandle/UseImperativeHandleComponent";
+import UseContextComponent from "./useContext/UseContextComponent";
 
 function App() {
   return (
     <>
-      <UseImperativeHandleComponent />
+      <UseContextComponent />
     </>
   );
 }
